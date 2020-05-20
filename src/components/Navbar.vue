@@ -1,11 +1,11 @@
 <template>
   <nav class="navbar navbar-dark" style="background-color: #7f55ff;">
     <div class="container">
-      <router-link to>
+      <router-link :to="{ name: 'Home' }">
         <span class="navbar-brand">Foodzone Items</span>
       </router-link>
       <form class="form-inline">
-        <router-link to>
+        <router-link :to="{ name: 'AddSmoothie' }">
           <button class="btn btn-success my-2 my-sm-0">Add Item</button>
         </router-link>
       </form>
